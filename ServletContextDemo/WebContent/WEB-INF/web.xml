@@ -9,20 +9,16 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-   
-   <!-- 配置的全局参数 -->
   <context-param>
-  	<param-name>address</param-name>
-  	<param-value>北京</param-value>
+    <param-name>address</param-name>
+    <param-value>北京</param-value>
   </context-param>
-  
   <servlet>
-  	<servlet-name>ServletContext01</servlet-name>
-	<servlet-class>com.lingzst.servlet.ServletContext01</servlet-class>
+    <servlet-name>ServletContext01</servlet-name>
+    <servlet-class>com.lingzst.servlet.ServletContext01</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>ServletContext01</servlet-name>
-  	<url-pattern>/a</url-pattern>
+    <servlet-name>ServletContext01</servlet-name>
+    <url-pattern>/a</url-pattern>
   </servlet-mapping>
-  
 </web-app>
